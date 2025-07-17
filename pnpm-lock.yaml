@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@salla.sa/twilight':
-        specifier: ^2.14.168
-        version: 2.14.168(@jitsu/protocols@1.10.0)(@types/dlv@1.1.5)(webpack@5.99.9)
+        specifier: ^2.14.170
+        version: 2.14.170(@jitsu/protocols@1.10.0)(@types/dlv@1.1.5)(webpack@5.99.9)
       '@salla.sa/twilight-tailwind-theme':
         specifier: ^2.14.157
         version: 2.14.158
@@ -884,10 +884,10 @@ packages:
     resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}
     engines: {node: '>=12'}
 
-  '@jitsu/js@1.10.1':
-    resolution: {integrity: sha512-FPoFJq+osyCedlQX2k0Vga57pL3E/sSYFwQwvRUuBnTaoiaWOT6Z4Kx7O2+dgQGeEmIGOE83ZpHH/uEeU635dg==}
+  '@jitsu/js@1.10.2':
+    resolution: {integrity: sha512-whwLEgUwKYDFymDMJk+7GpGQ4ZUrcwBI+HxwroC/Y3g/U3Wtgzhwq3cZVUs6dgIYF72cPx5MvMn0kzeznm+lhw==}
     peerDependencies:
-      '@jitsu/protocols': 1.10.1
+      '@jitsu/protocols': 1.10.2
 
   '@jitsu/protocols@1.10.0':
     resolution: {integrity: sha512-1mmjtXtQimyevQJXzWqmK5QpxXTOJgX4yS5UWNWqtrXcaXEcYS5aDWLgCRa3l296qpwhXrBWtIlYa5XpqRK4oQ==}
@@ -1035,8 +1035,8 @@ packages:
   '@salla.sa/base@2.14.158':
     resolution: {integrity: sha512-MDRl0mcd/x7fO5xmoF0m7tFKdnIJDxY+oMrX10HR68kephMoUp+eOO6y9HU0XaE4RCeL+o1V7gyQL7LuR/YAMA==}
 
-  '@salla.sa/base@2.14.168':
-    resolution: {integrity: sha512-Nx2FyS5owl8iP4pBmRztGaICKkUz/gir8GukNck+blkPkFCyy9hd8TNzdfVZlUy6tEmEs2esBFruVfyBLwZEpw==}
+  '@salla.sa/base@2.14.170':
+    resolution: {integrity: sha512-4LPYPsZ++pgRjf7FFJZyCjz2ffo7UKMQ4y5TpB0EI8QutLWnwci/QPoqddDkbyls5cJc60tS+8LCACeTt64jIA==}
 
   '@salla.sa/twilight-components@2.14.158':
     resolution: {integrity: sha512-lzNYWfBVYjWQQFWeMWcVOGgSqy437mndBBTsm7Lt2QEQTxTjL+vNrUvm1vBNPem+mvQS3dfboegZ7SIjOJNK3w==}
@@ -1049,8 +1049,8 @@ packages:
     peerDependencies:
       webpack: ^4 || ^5
 
-  '@salla.sa/twilight@2.14.168':
-    resolution: {integrity: sha512-e5TG4YMBsUVvqZ9wP1VB7BwVN1BdTEosuVHLgjxP6Rn+1fMfbkSz5BhNIgOwX/U6PCcUOTzH5JTG6oj4ooFQKg==}
+  '@salla.sa/twilight@2.14.170':
+    resolution: {integrity: sha512-p0/KZXnqzgnbVBPgx0cFcycsTGTUofcbVryqSXqY+TALKRsGIrddRGTyOdA6jcfk+JfWMLZim9TUf+bgDYjXKA==}
     peerDependencies:
       webpack: ^4 || ^5
 
@@ -1695,8 +1695,8 @@ packages:
     resolution: {integrity: sha512-gIXjKqtFuWEgzFRJA9WCQeSJLZDjgJUOMCMzxtvFq/37KojM1BFGufqsCy0r4qSQmYLsZYMeyRqzIWOMup03sw==}
     engines: {node: '>=14'}
 
-  form-data@4.0.3:
-    resolution: {integrity: sha512-qsITQPfmvMOSAdeyZ+12I1c+CKSstAFAwu+97zrnWAbIr5u8wfsExUzCesVLC8NgHuRUqNN4Zy6UPWUTRGslcA==}
+  form-data@4.0.4:
+    resolution: {integrity: sha512-KrGhL9Q4zjj0kiUt5OO4Mr/A/jlI2jDYs5eHBpYHPcBEVSiipAvn2Ko2HnPe20rmcuuvMHNdZFp+4IlGTMF0Ow==}
     engines: {node: '>= 6'}
 
   fraction.js@4.3.7:
@@ -3688,7 +3688,7 @@ snapshots:
       wrap-ansi: 8.1.0
       wrap-ansi-cjs: wrap-ansi@7.0.0
 
-  '@jitsu/js@1.10.1(@jitsu/protocols@1.10.0)(@types/dlv@1.1.5)':
+  '@jitsu/js@1.10.2(@jitsu/protocols@1.10.0)(@types/dlv@1.1.5)':
     dependencies:
       '@jitsu/protocols': 1.10.0
       analytics: 0.8.9(@types/dlv@1.1.5)
@@ -3832,7 +3832,7 @@ snapshots:
       lodash: 4.17.21
       store: 2.0.12
 
-  '@salla.sa/base@2.14.168':
+  '@salla.sa/base@2.14.170':
     dependencies:
       '@types/applepayjs': 14.0.9
       eventemitter2: 6.4.9
@@ -3871,7 +3871,7 @@ snapshots:
 
   '@salla.sa/twilight@2.14.158(@jitsu/protocols@1.10.0)(@types/dlv@1.1.5)(webpack@5.99.9)':
     dependencies:
-      '@jitsu/js': 1.10.1(@jitsu/protocols@1.10.0)(@types/dlv@1.1.5)
+      '@jitsu/js': 1.10.2(@jitsu/protocols@1.10.0)(@types/dlv@1.1.5)
       '@salla.sa/base': 2.14.158
       axios: 1.10.0
       infinite-scroll: 4.0.1
@@ -3885,10 +3885,10 @@ snapshots:
       - debug
       - supports-color
 
-  '@salla.sa/twilight@2.14.168(@jitsu/protocols@1.10.0)(@types/dlv@1.1.5)(webpack@5.99.9)':
+  '@salla.sa/twilight@2.14.170(@jitsu/protocols@1.10.0)(@types/dlv@1.1.5)(webpack@5.99.9)':
     dependencies:
-      '@jitsu/js': 1.10.1(@jitsu/protocols@1.10.0)(@types/dlv@1.1.5)
-      '@salla.sa/base': 2.14.168
+      '@jitsu/js': 1.10.2(@jitsu/protocols@1.10.0)(@types/dlv@1.1.5)
+      '@salla.sa/base': 2.14.170
       axios: 1.10.0
       infinite-scroll: 4.0.1
       jwt-decode: 4.0.0
@@ -4115,7 +4115,7 @@ snapshots:
   axios@1.10.0:
     dependencies:
       follow-redirects: 1.15.9
-      form-data: 4.0.3
+      form-data: 4.0.4
       proxy-from-env: 1.1.0
     transitivePeerDependencies:
       - debug
@@ -4543,7 +4543,7 @@ snapshots:
       cross-spawn: 7.0.6
       signal-exit: 4.1.0
 
-  form-data@4.0.3:
+  form-data@4.0.4:
     dependencies:
       asynckit: 0.4.0
       combined-stream: 1.0.8
